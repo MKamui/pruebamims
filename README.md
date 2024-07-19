@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+PRUEBA TECNICA FRONTEND - MIMS Notary
 
-## Getting Started
+tecnologías usadas:
+1. NextJS
+2. Typescript
+3. Tailwind
+4. Axios (para el manejo de peticiones)
+5. React Icons (Iconos de la app)
+6. Redux (Manejo de estados globales)
+7. Redux Persist (Persistencia del estado para el usuario)
+8. Sweetalert2 (Alertas personalizadas)
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+La app posee las siguientes características:
+● Buscar palabras utilizando el campo de entrada.
+● Ver la respuesta de la API de Free Dictionary para la palabra buscada.
+● Ver un mensaje de validación del formulario cuando intenten enviar un formulario
+en blanco.
+● Reproducir el archivo de audio de una palabra cuando esté disponible.
+● Cambiar entre fuentes serif, sans serif y monospace.
+● Cambiar entre temas claro y oscuro.
+● Ver el diseño óptimo de la interfaz según el tamaño de la pantalla de su dispositivo.
+● Ver estados de hover y enfoque para todos los elementos interactivos en la página.
+● Implementar una funcionalidad de historial de palabras buscadas que incluya la
+fecha y hora de cada búsqueda. El diseño de esta funcionalidad debe ser agregado
+por la persona que realiza la prueba, donde mejor considere que se adapte (por
+ejemplo, modal, listado al inicio después de ingresar una palabra, etc.).
+● Incluir validaciones robustas para el campo de búsqueda de palabras.
+● Adaptar los colores coherentemente al modo oscuro.
+● Elegir automáticamente el esquema de color correcto basado en las preferencias de
+color del sistema del usuario. Pista: Investiga prefers-color-scheme en CSS.
+● Utilizar Redux Toolkit para gestionar de manera eficiente el estado global de la
+aplicación.
